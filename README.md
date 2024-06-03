@@ -12,6 +12,20 @@ Improved few-shot jailbreaking composed by automated creation of the demonstrati
 ### Abstract: 
 Recently, Anil et al. (2024) show that many-shot (up to hundreds of) demonstrations can jailbreak state-of-the-art LLMs by exploiting their long-context capability. Nevertheless, is it possible to use few-shot demonstrations to efficiently jailbreak LLMs within limited context sizes? While the vanilla few-shot jailbreaking may be inefficient, we propose improved techniques such as injecting special system tokens like [/INST] and employing demo-level random search from a collected demo pool. These simple techniques result in surprisingly effective jailbreaking against aligned LLMs (even with advanced defenses). For example, our method achieves >80% (mostly >95%) ASRs on Llama-2-7B and Llama-3-8B without multiple restarts, even if the models are enhanced by strong defenses such as perplexity detection and/or SmoothLLM, which is challenging for suffix-based jailbreaking. In addition, we conduct comprehensive and elaborate (e.g., making sure to use correct system prompts) evaluations against other aligned LLMs and advanced defenses, where our method consistently achieves nearly 100% ASRs.
 
+### Main Results: 
+
+<p align="center">
+<img src="./static/table 1.png" width=95% height=95%>
+</p>
+
+<p align="center">
+<img src="./static/table 2.png" width=95% height=95%>
+</p>
+
+<p align="center">
+<img src="./static/table 3.png" width=95% height=95%>
+</p>
+
 ### Run experiments
 
 **Clone the GitHub Repository:** Begin by cloning the repository using the following command:
