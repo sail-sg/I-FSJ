@@ -1,9 +1,15 @@
 <h1 align='center' style="text-align:center; font-weight:bold; font-size:2.0em;letter-spacing:2.0px;">Improved Few-Shot Jailbreaking Can Circumvent<br/>Aligned Language Models and Their Defenses</h1>
-    
+
+<p align='left' style="text-align:left;font-size:1.2em;">
+<b>
+    [<a href="https://sail-sg.github.io/I-FSJ" target="_blank" style="text-decoration: none;">Project Page</a>] |
+    [<a href="https://arxiv.org/pdf/2406.01288" target="_blank" style="text-decoration: none;">arXiv</a>] 
+</b>
+</p>
+
 ### TL, DR: 
-```
-Improved few-shot jailbreaking composed by automated creation of the demonstration pool, the utilization of special tokens from the target LLM's system template, and demo-level random search, facilitate high ASRs.
-```
+Improved few-shot jailbreaking composed by the automated creation of the demonstration pool, the utilization of special tokens from the target LLM's system template, and demo-level random search, facilitate high ASRs.
+
 
 <p align="center">
 <img src="./static/1.png" width=65% height=65%>
