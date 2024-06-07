@@ -2,7 +2,6 @@
 
 <p align='left' style="text-align:left;font-size:1.2em;">
 <b>
-    [<a href="https://sail-sg.github.io/I-FSJ" target="_blank" style="text-decoration: none;">Project Page</a>] |
     [<a href="https://arxiv.org/pdf/2406.01288" target="_blank" style="text-decoration: none;">arXiv</a>] 
 </b>
 </p>
